@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0E66671F385C5A00E7B130 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0E66651F385C5A00E7B130 /* Logo.png */; };
+		4D0E66681F385C5A00E7B130 /* Logo58.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0E66661F385C5A00E7B130 /* Logo58.png */; };
+		4D2F46221F395AA7008D30F2 /* UIAnimationImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F46211F395AA7008D30F2 /* UIAnimationImageView.m */; };
 		4D6F5D801EFCA38F00F87D3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F5D7F1EFCA38F00F87D3C /* main.m */; };
 		4D6F5D831EFCA38F00F87D3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F5D821EFCA38F00F87D3C /* AppDelegate.m */; };
 		4D6F5D861EFCA38F00F87D3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F5D851EFCA38F00F87D3C /* ViewController.m */; };
 		4D6F5D891EFCA38F00F87D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F5D871EFCA38F00F87D3C /* Main.storyboard */; };
 		4D6F5D8B1EFCA38F00F87D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F5D8A1EFCA38F00F87D3C /* Assets.xcassets */; };
 		4D6F5D8E1EFCA38F00F87D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6F5D8C1EFCA38F00F87D3C /* LaunchScreen.storyboard */; };
+		4D6F5DA01EFCB79500F87D3C /* HZBSingleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F5D9D1EFCB79500F87D3C /* HZBSingleModel.m */; };
+		4D6F5DA11EFCB79500F87D3C /* HZBSingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F5D9F1EFCB79500F87D3C /* HZBSingleViewController.m */; };
+		4D6F5DA71EFCB95E00F87D3C /* HZBAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F5DA61EFCB95E00F87D3C /* HZBAnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D0E66651F385C5A00E7B130 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		4D0E66661F385C5A00E7B130 /* Logo58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo58.png; sourceTree = "<group>"; };
+		4D2F46201F395AA7008D30F2 /* UIAnimationImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAnimationImageView.h; sourceTree = "<group>"; };
+		4D2F46211F395AA7008D30F2 /* UIAnimationImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAnimationImageView.m; sourceTree = "<group>"; };
 		4D6F5D7B1EFCA38F00F87D3C /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6F5D7F1EFCA38F00F87D3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D6F5D811EFCA38F00F87D3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,12 @@
 		4D6F5D8A1EFCA38F00F87D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D6F5D8D1EFCA38F00F87D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D6F5D8F1EFCA38F00F87D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6F5D9C1EFCB79500F87D3C /* HZBSingleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZBSingleModel.h; sourceTree = "<group>"; };
+		4D6F5D9D1EFCB79500F87D3C /* HZBSingleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZBSingleModel.m; sourceTree = "<group>"; };
+		4D6F5D9E1EFCB79500F87D3C /* HZBSingleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZBSingleViewController.h; sourceTree = "<group>"; };
+		4D6F5D9F1EFCB79500F87D3C /* HZBSingleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZBSingleViewController.m; sourceTree = "<group>"; };
+		4D6F5DA51EFCB95E00F87D3C /* HZBAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZBAnimationView.h; sourceTree = "<group>"; };
+		4D6F5DA61EFCB95E00F87D3C /* HZBAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZBAnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D0E66691F38637200E7B130 /* HZBAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				4D2F46201F395AA7008D30F2 /* UIAnimationImageView.h */,
+				4D2F46211F395AA7008D30F2 /* UIAnimationImageView.m */,
+			);
+			path = HZBAnimation;
+			sourceTree = "<group>";
+		};
 		4D6F5D721EFCA38F00F87D3C = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +83,10 @@
 		4D6F5D7D1EFCA38F00F87D3C /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				4D0E66691F38637200E7B130 /* HZBAnimation */,
+				4D0E66651F385C5A00E7B130 /* Logo.png */,
+				4D0E66661F385C5A00E7B130 /* Logo58.png */,
+				4D6F5D9B1EFCB79500F87D3C /* Animation */,
 				4D6F5D811EFCA38F00F87D3C /* AppDelegate.h */,
 				4D6F5D821EFCA38F00F87D3C /* AppDelegate.m */,
 				4D6F5D841EFCA38F00F87D3C /* ViewController.h */,
@@ -77,6 +106,19 @@
 				4D6F5D7F1EFCA38F00F87D3C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D6F5D9B1EFCB79500F87D3C /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				4D6F5D9C1EFCB79500F87D3C /* HZBSingleModel.h */,
+				4D6F5D9D1EFCB79500F87D3C /* HZBSingleModel.m */,
+				4D6F5D9E1EFCB79500F87D3C /* HZBSingleViewController.h */,
+				4D6F5D9F1EFCB79500F87D3C /* HZBSingleViewController.m */,
+				4D6F5DA51EFCB95E00F87D3C /* HZBAnimationView.h */,
+				4D6F5DA61EFCB95E00F87D3C /* HZBAnimationView.m */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +179,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0E66671F385C5A00E7B130 /* Logo.png in Resources */,
+				4D0E66681F385C5A00E7B130 /* Logo58.png in Resources */,
 				4D6F5D8E1EFCA38F00F87D3C /* LaunchScreen.storyboard in Resources */,
 				4D6F5D8B1EFCA38F00F87D3C /* Assets.xcassets in Resources */,
 				4D6F5D891EFCA38F00F87D3C /* Main.storyboard in Resources */,
@@ -152,6 +196,10 @@
 			files = (
 				4D6F5D861EFCA38F00F87D3C /* ViewController.m in Sources */,
 				4D6F5D831EFCA38F00F87D3C /* AppDelegate.m in Sources */,
+				4D6F5DA71EFCB95E00F87D3C /* HZBAnimationView.m in Sources */,
+				4D6F5DA01EFCB79500F87D3C /* HZBSingleModel.m in Sources */,
+				4D2F46221F395AA7008D30F2 /* UIAnimationImageView.m in Sources */,
+				4D6F5DA11EFCB79500F87D3C /* HZBSingleViewController.m in Sources */,
 				4D6F5D801EFCA38F00F87D3C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +357,7 @@
 				4D6F5D941EFCA38F00F87D3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
