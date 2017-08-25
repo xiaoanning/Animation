@@ -10,6 +10,7 @@
 		4D0E66671F385C5A00E7B130 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0E66651F385C5A00E7B130 /* Logo.png */; };
 		4D0E66681F385C5A00E7B130 /* Logo58.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0E66661F385C5A00E7B130 /* Logo58.png */; };
 		4D2F46221F395AA7008D30F2 /* UIAnimationImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F46211F395AA7008D30F2 /* UIAnimationImageView.m */; };
+		4D4CF3571F4BD2C000139D49 /* HZBCarouselAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4CF3561F4BD2C000139D49 /* HZBCarouselAnimation.m */; };
 		4D6F5D801EFCA38F00F87D3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F5D7F1EFCA38F00F87D3C /* main.m */; };
 		4D6F5D831EFCA38F00F87D3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F5D821EFCA38F00F87D3C /* AppDelegate.m */; };
 		4D6F5D861EFCA38F00F87D3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F5D851EFCA38F00F87D3C /* ViewController.m */; };
@@ -26,6 +27,8 @@
 		4D0E66661F385C5A00E7B130 /* Logo58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo58.png; sourceTree = "<group>"; };
 		4D2F46201F395AA7008D30F2 /* UIAnimationImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAnimationImageView.h; sourceTree = "<group>"; };
 		4D2F46211F395AA7008D30F2 /* UIAnimationImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAnimationImageView.m; sourceTree = "<group>"; };
+		4D4CF3551F4BD2C000139D49 /* HZBCarouselAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZBCarouselAnimation.h; sourceTree = "<group>"; };
+		4D4CF3561F4BD2C000139D49 /* HZBCarouselAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZBCarouselAnimation.m; sourceTree = "<group>"; };
 		4D6F5D7B1EFCA38F00F87D3C /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6F5D7F1EFCA38F00F87D3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D6F5D811EFCA38F00F87D3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +67,15 @@
 			path = HZBAnimation;
 			sourceTree = "<group>";
 		};
+		4D4CF3541F4BD1D500139D49 /* HZBCarouselAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				4D4CF3551F4BD2C000139D49 /* HZBCarouselAnimation.h */,
+				4D4CF3561F4BD2C000139D49 /* HZBCarouselAnimation.m */,
+			);
+			path = HZBCarouselAnimation;
+			sourceTree = "<group>";
+		};
 		4D6F5D721EFCA38F00F87D3C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +95,7 @@
 		4D6F5D7D1EFCA38F00F87D3C /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				4D4CF3541F4BD1D500139D49 /* HZBCarouselAnimation */,
 				4D0E66691F38637200E7B130 /* HZBAnimation */,
 				4D0E66651F385C5A00E7B130 /* Logo.png */,
 				4D0E66661F385C5A00E7B130 /* Logo58.png */,
@@ -197,6 +210,7 @@
 				4D6F5D861EFCA38F00F87D3C /* ViewController.m in Sources */,
 				4D6F5D831EFCA38F00F87D3C /* AppDelegate.m in Sources */,
 				4D6F5DA71EFCB95E00F87D3C /* HZBAnimationView.m in Sources */,
+				4D4CF3571F4BD2C000139D49 /* HZBCarouselAnimation.m in Sources */,
 				4D6F5DA01EFCB79500F87D3C /* HZBSingleModel.m in Sources */,
 				4D2F46221F395AA7008D30F2 /* UIAnimationImageView.m in Sources */,
 				4D6F5DA11EFCB79500F87D3C /* HZBSingleViewController.m in Sources */,

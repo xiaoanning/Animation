@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "HZBAnimationView.h"
 #import "UIAnimationImageView.h"
+#import "HZBCarouselAnimation.h"
 
 @interface ViewController ()
 
@@ -49,8 +50,23 @@
     
     
     //2. animation
-    [self animation1];
+//    [self animation1];
     
+    //3. 轮播图
+    [self animation2];
+    
+}
+
+#pragma mark - 轮播图
+-(void)animation2
+{
+    HZBCarouselAnimation * ani = [[HZBCarouselAnimation alloc]initWithFrame:CGRectMake(0, 200, CGRectGetWidth([[UIScreen mainScreen]bounds]), 200)];
+    
+    [ani setImageArray:@[@"Logo.png",@"Logo58.png"]];
+    [self.view addSubview:ani];
+    
+    
+                                                                                       
 }
 
 #pragma mark - animation1
@@ -73,11 +89,20 @@
     [_subView setImageNameArray:_imageArray];
     
     [_subView addGestureRecognizer:[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tap)]];
+    
+    [_subView addGestureRecognizer:[[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(panGesture:)]];
 }
 
 -(void)tap
 {
     NSLog(@"%@",@([_subView getCurrentShowImageIndex]));
+}
+-(void)panGesture:(UITapGestureRecognizer *)ges
+{
+    NSLog(@" == %@",NSStringFromCGPoint([ges locationInView:_subView])) ;
+    
+    [_subView stopTimer];
+    
 }
 
 #pragma mark - animation0

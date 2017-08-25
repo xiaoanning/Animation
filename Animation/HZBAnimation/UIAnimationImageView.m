@@ -19,6 +19,19 @@
 
 @implementation UIAnimationImageView
 
+-(void)stopTimer
+{
+    [_timer setFireDate:[NSDate distantFuture]];
+}
+-(void)setCurrentShowImageIndex:(NSInteger)currentShowImageIndex
+{
+    _currentShowImageIndex = currentShowImageIndex ;
+}
+
+-(void)startTimer
+{
+    [_timer setFireDate:[NSDate distantPast]];
+}
 
 -(NSInteger)getCurrentShowImageIndex
 {

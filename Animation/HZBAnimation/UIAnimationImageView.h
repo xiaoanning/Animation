@@ -14,4 +14,9 @@
 
 -(NSInteger)getCurrentShowImageIndex;
 
+-(void)stopTimer ;
+-(void)setCurrentShowImageIndex:(NSInteger)currentShowImageIndex ;
+-(void)startTimer ;
+
 @end
+
